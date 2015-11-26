@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DEMO - jquery-validation-async</title>
+    <style>
+      input{
+        width: 200px;
+      }
+      label.error{
+        color: red;
+        margin-left: 16px;
+      }
+      input.error{
+        border-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="test-form">
+      <p>
+        <label for="url">URL</label>
+        <input name="url" id="url">
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input name="email" id="email">
+      </p>
+      <p>
+        <input type="submit" value="OK">
+      </p>
+    </form>
+    <script src="../lib/jquery-1.11.3.min.js" charset="utf-8"></script>
+    <script src="../lib/jquery.validate.min.js" charset="utf-8"></script>
+    <script src="../jquery.validate.async.js" charset="utf-8"></script>
+    <script src="demo.js" charset="utf-8"></script>
+  </body>
+</html>
